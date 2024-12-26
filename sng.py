@@ -10,7 +10,7 @@ st.set_page_config(page_title="Poker Tournament Monte Carlo Simulator", layout="
 # Title and Description
 st.title("Poker Tournament Monte Carlo Simulator")
 st.markdown("""
-Welcome to the **Poker Tournament Monte Carlo Simulator**! This application allows you to simulate Spin and Go poker tournaments to analyze potential outcomes based on your input parameters. Adjust the simulation settings below to explore different scenarios and understand your potential returns and risks.
+Welcome to the **Poker Tournament Monte Carlo Simulator**! This application allows you to simulate Spin and Go poker tournaments to analyze potential outcomes based on a player's Chip EV (expected chips won per game). Adjust the simulation settings below to explore different scenarios and understand your potential returns and risks.
 """)  # Added Description under the main title
 
 # Tournament Details
@@ -181,7 +181,7 @@ st.subheader("Buy-In Details")
 st.write(f"**Stake Selected:** {stake}")
 st.write(f"**Buy-In per Player:** ${buy_in}")
 st.write(f"Each player starts with **{initial_chips}** chips.")
-st.write(f"The first player to reach **{target_chips}** chips finishes first.")
+st.write(f"The player who collects all **{target_chips}** chips finishes first.")
 
 # Display Prize Distribution
 st.subheader("Prize Distribution")

@@ -1,0 +1,26 @@
+# macOS system files
+.DS_Store
+
+# Python cache directories
+__pycache__/
+*.pyc
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Data files (if applicable)
+data/

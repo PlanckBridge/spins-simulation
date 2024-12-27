@@ -385,7 +385,7 @@ if st.button("Run Simulation"):
     
     # Added description under the title
     st.markdown("""
-    The table below summarizes key statistics from the simulations, including average, highest, and lowest values for cumulative profit/loss, average profit per tournament, ROI, max draw-down, the number of times you finished first, and the percentage of tournaments with zero payout.
+    The table below summarizes the key statistics from all the simulations.
     """)
     
     stats_data = {
